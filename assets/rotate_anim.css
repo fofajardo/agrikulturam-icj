@@ -1,0 +1,19 @@
+@keyframes link-animation {
+  0% {
+    transform: translateY(-9px) scale(1.2);
+    opacity: 0;
+  }
+
+  25% {
+    transform: translateY(0) rotate(-20deg);
+    opacity: 1;
+  }
+
+  75% {
+    transform: rotate(5deg);
+  }
+  
+  100% {
+    transform: rotate(0);
+  }
+}
