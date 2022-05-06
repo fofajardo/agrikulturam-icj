@@ -1,4 +1,4 @@
-const CACHE_VERSION = "1.0.0-d11b7d00813f";
+const CACHE_VERSION = "1.0.0-41d8013eba6dc75c";
 const CACHE_NAME = "agriculturam-${CACHE_VERSION}";
 
 const OFFLINE_URL = "";
