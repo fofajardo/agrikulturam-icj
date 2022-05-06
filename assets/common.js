@@ -184,3 +184,14 @@ var gActions = {
 window.addEventListener("DOMContentLoaded", gSite.onDOMLoad);
 window.addEventListener("load", gSite.onLoad);
 window.addEventListener("popstate", gSite.onPopState);
+
+// Initialize PWA service worker
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("pwa.js", {
+        scope: "."
+    }).then(function (registration) {
+        console.log('PWA: ServiceWorker registration successful with scope: ', registration.scope);
+    }, function (err) {
+        console.log('PWA: ServiceWorker registration failed: ', err);
+    });
+}
