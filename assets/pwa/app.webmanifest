@@ -5,7 +5,7 @@
     "background_color": "#ffffff",
     "theme_color": "#ffffff",
     "orientation": "portrait",
-    "display": "fullscreen",
+    "display": "standalone",
     "start_url": "/?source=pwa",
     "icons": [
         {
