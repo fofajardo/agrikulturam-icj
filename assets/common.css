@@ -729,15 +729,20 @@ button .iconify ~ span {
   margin-left: 5px;
 }
 
-.btn:hover,
-button:hover {
+.btn[disabled] {
+  background: #b9b9b9;
+  color: #ececec;
+}
+
+.btn:not([disabled]):hover,
+button:not([disabled]):hover {
   background: #0088FF;
 }
 
-.btn:focus,
-.btn:hover:active,
-button:focus,
-button:hover:active {
+.btn:not([disabled]):focus,
+.btn:not([disabled]):hover:active,
+button:not([disabled]):focus,
+button:not([disabled]):hover:active {
   background: #005FB2;
   outline: none;
   border-color: #000;
