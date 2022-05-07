@@ -1,5 +1,5 @@
 const CACHE_VERSION = "1.0.0-8c8145e013d51a88";
-const CACHE_NAME = "agriculturam-${CACHE_VERSION}";
+const CACHE_NAME = "agrikulturam-${CACHE_VERSION}";
 
 const OFFLINE_URL = "";
 const CACHE_ASSETS = [
