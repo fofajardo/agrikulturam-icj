@@ -32,6 +32,7 @@
   --fg-transparent: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
 
   --max-distance: 70rem;
+  --max-distance-alt: 40rem;
   --circle-radius: 9999em;
 }
 
@@ -337,6 +338,10 @@ footer {
   padding: 15px;
   width: 100%;
   max-width: var(--max-distance);
+}
+
+.content-layout.alt {
+  max-width: var(--max-distance-alt);
 }
 
 .content-layout > h1 {
