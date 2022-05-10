@@ -33,6 +33,7 @@ const CACHE_ASSETS = [
     "views/pests-2.html",
     "views/settings.html",
     "views/statistics.html"
+    "views/help.html"
 ];
 
 self.addEventListener("install", e => {
